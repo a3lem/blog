@@ -1,4 +1,4 @@
-baseURL = 'https://a3lem.com'
+baseURL = '/'
 languageCode = 'en-us'
 title = "adriaan's blog"
 author = "adriaan"
@@ -9,9 +9,9 @@ theme = "hugo-bearblog"
 # disableKinds = ["taxonomy"]
 # ignoreErrors = ["error-disable-taxonomy"]
 
-[permalinks]
-blog = "/:slug/"
-tags = "/blog/:slug"
+# [permalinks]
+# blog = "/:slug/"
+# tags = "/blog/:slug"
 
 [params]
 favicon = "images/favicon.png"
@@ -22,7 +22,7 @@ dateFormat = "02 Jan 2006"
 style = 'pygments'
 codeFences = true
 guessSyntax = true
-noclasses = false
+noClasses = false
 
 
 
