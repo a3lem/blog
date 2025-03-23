@@ -1,0 +1,26 @@
+<style type="text/css" media="screen">
+
+  @media (prefers-color-scheme: dark) { 
+    {{ partial "css/syntax-dark.css" . | safeCSS }}
+  }
+  @media (prefers-color-scheme: light) { 
+    {{ partial "css/syntax-light.css" . | safeCSS }} 
+  }
+
+
+  .highlight {
+    padding: 0px;
+  }
+
+  .highlight pre {
+    margin: 0px;
+    overflow-x: scroll;
+    padding: 10px 10px;
+  }
+
+  .highlight code {
+    background-color: unset;
+    padding: 0px;
+  }
+
+</style>

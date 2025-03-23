@@ -1,0 +1,29 @@
+baseURL = 'https://a3lem.com'
+languageCode = 'en-us'
+title = "adriaan's blog"
+author = "adriaan"
+
+theme = "hugo-bearblog"
+
+# TODO(me): why does hugo bearblog disable these?
+# disableKinds = ["taxonomy"]
+# ignoreErrors = ["error-disable-taxonomy"]
+
+[permalinks]
+blog = "/:slug/"
+tags = "/blog/:slug"
+
+[params]
+favicon = "images/favicon.png"
+title = "adriaan's blog"
+dateFormat = "02 Jan 2006"
+
+[markup.highlight]
+style = 'pygments'
+codeFences = true
+guessSyntax = true
+noclasses = false
+
+
+
+
